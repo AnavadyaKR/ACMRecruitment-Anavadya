@@ -1,0 +1,21 @@
+Task:
+
+Devise a strategy to determine which of the three switches controls a bulb in another room, entering the room only once.
+
+Let's name the switches as 1,2,3.
+
+Action 1
+Turn on switch 1 and off it after a few minutes
+
+Action2:
+Turn on switch 2 and keep it turned on
+
+Action 3:
+Do not turn on switch 3.
+
+Action 4:
+Enter into the room which has the  bulb
+
+if the bulb is hot when touched : It's switch 1.
+if the bulb is glowing : It's switch 2
+if the bulb is off : It's switch 3
