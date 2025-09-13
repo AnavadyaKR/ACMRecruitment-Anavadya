@@ -1,0 +1,17 @@
+Question
+
+Reverse a string using both:
+1. Iterative method
+2. Recursive method  
+(Without using built-in reverse functions)
+
+Iterative Method
+- Start from the last character and build the reversed string step by step.
+- Time Complexity: O(n)
+- Space Complexity: O(1) (ignore output string).
+
+Recursive Method
+- Base case: If the string is empty or has one character, return it.
+- Recursive case: Reverse the substring from index 1 onward, then add the first character at the end.
+- Time Complexity: O(n)
+- Space Complexity: O(n) (due to recursion stack).
