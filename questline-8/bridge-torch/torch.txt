@@ -1,0 +1,26 @@
+Four people need to cross a narrow bridge at night with only one torch.  
+- Crossing times: P1 = 1 min, P2 = 2 min, P3 = 7 min, P4 = 10 min  
+- Bridge rules:
+  - Maximum 2 people can cross at a time
+  - The torch is required for crossing
+  - Crossing time = slower person's time
+  - Someone must bring the torch back if people remain on the original side
+LOGIC 
+
+Move	Who Crosses	Time (min)	Side after crossing
+1	P1 & P2		2		Left: P3,P4     Right: P1,P2
+2	P1 returns	1		Left: P1,P3,P4  Right: P2
+3	P3 & P4		10		Left: P1        Right: P2,P3,P4
+4	P2 returns	2		Left: P1,P2     Right: P3,P4
+5	P1 & P2		2		Left: none      Right: P1,P2,P3,P4(all crossed)
+
+So total time taken = 17 minutes
+
+Reason:
+Minimum time spent  to bring torch back to left side 
+To spent minimum time fastest people p1 and p2 are taken for bringing the torch back
+Avoiding pairing of slowest person and the fastest person as the pace of crossing =slow persons time
+Pairing slowest people together
+therefore crossing time will be minimum which is 17 minutes
+
+
