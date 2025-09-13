@@ -1,0 +1,13 @@
+Left bank(L),Right bank(R),Cabbage(C),Wolf(W),Goat(G),Farmer(F)
+
+0	Start	(L, L, L, L)	(F, W, G, C)
+1	F takes Goat → R	(R, L, R, L)
+2	F returns alone → L	(L, L, R, L)
+3	F takes Wolf → R	(R, R, R, L)
+4	F brings Goat ← L	(L, R, L, L)
+5	F takes Cabbage → R	(R, R, L, R)
+6	F returns alone → L	(L, R, L, R)
+7	F takes Goat → R	(R, R, R, R)
+
+NO wolf+goat alone when farmer is away
+No goat+cabbage alone when farmer is away
