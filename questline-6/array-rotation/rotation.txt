@@ -1,0 +1,28 @@
+Problem
+Given an integer array `nums`, rotate the array to the right by `k` steps, where `k` is non-negative.
+
+Example:
+Input: nums = [1,2,3,4,5,6,7], k = 3
+Output: [5,6,7,1,2,3,4]
+
+
+Approach
+
+1. The problem is to shift all elements to the right by `k` steps.
+2. We can solve this:
+   - Normalize `k` as `k = k % len(nums)` (to handle large k values).
+   - Reverse the whole array
+   - Reverse the first k elements.
+   - Reverse the remaining elements.
+3. This uses the array reversal trick, which rotates in-place.
+4. Time Complexity: O(n)  
+   Space Complexity: O(1)
+
+
+Input: nums = [1,2,3,4,5,6,7], k = 3
+
+- Reverse whole array → [7,6,5,4,3,2,1]
+- Reverse first 3 → [5,6,7,4,3,2,1]
+- Reverse remaining → [5,6,7,1,2,3,4]
+
+Final Answer: [5,6,7,1,2,3,4]
