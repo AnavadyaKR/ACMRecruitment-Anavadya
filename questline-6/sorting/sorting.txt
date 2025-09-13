@@ -1,0 +1,13 @@
+I am going to implement the bubble sort method
+
+Bubble sort
+Compare adjacent elements
+Swap them if the first element is greater than the second.
+After each pass the largest element will go  to the end of the list
+The process repeats till it get sorted
+The maximum number of passes will be (no:of elements-1)
+
+
+Bubble sort test on [5, 2, 9, 1, 5, 6].
+
+expected output [1,2,5,5,6,9].
