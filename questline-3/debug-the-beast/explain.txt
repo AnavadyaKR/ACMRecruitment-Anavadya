@@ -1,0 +1,2 @@
+bug : duplicates of large number will be shown as second largest 
+fixing: fixed it by adding an extra condition num!=largest which allows to print the next smallest as second largest number
