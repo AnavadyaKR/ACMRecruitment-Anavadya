@@ -1,0 +1,64 @@
+/* Reset default margins */
+body, h1, h2, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Body styles */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+/* Navigation bar */
+header {
+  background: #333;
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Sections */
+section {
+  padding: 60px;
+  text-align: center;
+  min-height: 100vh;
+}
+
+#about {
+  background: #d171b7;
+}
+
+#projects {
+  background: #76dfc6;
+}
+
+#contact {
+  background: #ffe0b2;
+}
+
+/* Footer */
+footer {
+  background: #894646;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
